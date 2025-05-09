@@ -1,12 +1,18 @@
-# React + Vite
+图像识别系统前端项目
+项目简介
+本项目是一个基于 React 的图像识别系统前端应用，旨在为用户提供便捷、高效的图像分类功能。通过集成持续学习算法，系统支持用户上传图片、选择模型进行实时分类，并提供自定义模型训练与结果可视化的功能。界面设计直观美观，操作流畅，适用于教育、旅游、兴趣探索等多种场景。
+功能特性
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+用户认证：支持用户注册、登录、密码找回及个人信息管理，确保安全与个性化体验。
+图像识别：用户可上传图片并选择模型进行实时分类，查看识别结果与用时。
+模型训练管理：支持新模型训练与增量训练，用户可设置参数、选择数据集，并查看训练状态与日志。
+训练结果可视化：以折线图展示模型训练准确率，支持任务增量与类增量场景下的性能评估。
+资源管理：提供图片与数据集的上传、管理与预览功能，支持批量操作与分类查看。
 
-Currently, two official plugins are available:
+技术栈
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Vite：构建工具，提供快速开发与打包体验。
+Node.js：运行时环境，用于本地开发与依赖管理。
+React：前端框架，用于构建动态交互界面。
+Ant Design：组件库，提供美观且高效的 UI 组件。
+Axios：处理前后端 HTTP 请求。
