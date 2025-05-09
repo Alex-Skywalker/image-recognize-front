@@ -1,0 +1,101 @@
+/* 整体布局 */
+.login-container {
+  display: flex;
+  min-height: 100vh;
+  background: #F5F7FA; /* 浅灰色背景 */
+}
+
+/* 左侧背景区域 */
+.login-left {
+  flex: 6; /* 左侧占 2/8 */
+  background: url('C:\\Users\\ymc\\Desktop\\毕设\\系统\\image-recognize-front\\src\\assets\\background.png') no-repeat center center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  color: #fff;
+}
+
+/* 左侧内容 */
+.login-left-content {
+  position: relative;
+  text-align: center;
+  padding: 40px;
+}
+
+.login-logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 24px;
+}
+
+.logo-text {
+  color: #fff !important;
+  font-family: 'Poppins', sans-serif;
+}
+
+.login-description {
+  color: #E6F0FA !important;
+  font-size: 36px;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+/* 右侧表单区域 */
+.login-right {
+  flex: 6; /* 右侧占 6/8 */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: white;
+  padding: 40px;
+}
+
+/* 卡片样式 */
+.login-card {
+  width: 100%;
+  max-width: 500px; /* 增大卡片宽度 */
+  border-radius: 12px !important;
+  border: 1px solid rgba(0, 0, 0, 0.2) !important; /* 加深边框 */
+  box-shadow: 0 20px 32px rgba(0, 0, 0, 0.15) !important; /* 加深阴影 */
+  padding: 32px; /* 增加内边距 */
+}
+
+/* 卡片标题 */
+.login-title {
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+/* 输入框样式 */
+.login-input {
+  border-radius: 8px !important;
+  border: 1px solid #E6F0FA !important;
+  background: #F5F7FA !important;
+  transition: all 0.3s ease;
+  height: 48px !important; /* 增加输入框高度 */
+  font-size: 20px !important; /* 增大输入框字体 */
+}
+
+/* 按钮样式 */
+.login-button {
+  border-radius: 8px !important;
+  background: #1890FF !important;
+  border: none !important;
+  transition: all 0.3s ease;
+  font-size: 20px;
+  height: 50px;
+}
+
+/* 表单文本 */
+.login-card .ant-form-item {
+  color: #333;
+  margin-bottom: 24px; /* 调整表单项间距 */
+}
+
+/* 验证码样式 */
+canvas {
+  vertical-align: middle;
+}

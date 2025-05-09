@@ -1,0 +1,135 @@
+/* 卡片样式 */
+.test-card {
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    padding: 16px;
+  }
+  
+  /* 操作栏 */
+  .action-bar {
+    margin-bottom: 16px;
+  }
+  
+  /* 上传区域 */
+  .upload-btn,
+  .select-btn {
+    width: 200px;
+  }
+  
+  /* 模型选择 */
+  .model-section {
+    display: flex;
+    align-items: center;
+  }
+  
+  .model-section span {
+    margin-right: 12px;
+  }
+  
+  .model-select {
+    border-radius: 4px;
+  }
+  
+  /* 按钮样式 */
+  .recognize-btn {
+    border-radius: 4px;
+  }
+  
+  /* 预览区域 */
+  .preview-container {
+    margin-top: 16px;
+    text-align: center;
+  }
+  
+  .preview-image {
+    border: 1px solid #d9d9d9;
+    padding: 4px;
+    border-radius: 4px;
+    max-height: 300px;
+    object-fit: contain;
+  }
+  
+  .preview-placeholder {
+    width: 500px;
+    height: 300px;
+    border: 1px dashed #d9d9d9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #aaa;
+    font-size: 16px;
+    border-radius: 4px;
+    background-color: #fafafa;
+  }
+  
+  /* 加载和结果区域 */
+  .loading-spinner {
+    display: block;
+    margin-top: 16px;
+    text-align: center;
+  }
+  
+  .result-section {
+    margin-top: 16px;
+  }
+  
+  .result-card {
+    border-radius: 4px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* 模态框样式 */
+  .image-modal .ant-modal-body {
+    padding: 16px;
+  }
+  
+  .loading-container {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .image-list {
+    max-height: 400px;
+    overflow-y: auto;
+  }
+  
+  .image-item {
+    padding: 8px;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+  }
+  
+  .image-item.selected {
+    background-color: #e6f7ff;
+  }
+  
+  .image-preview {
+    width: 64px;
+    height: 64px;
+    object-fit: cover;
+    border-radius: 4px;
+  }
+  
+  .image-fallback {
+    width: 64px;
+    height: 64px;
+    background-color: #f0f0f0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+  }
+  
+  .image-time {
+    color: #888;
+    font-size: 12px;
+  }
+  
+  .pagination-container {
+    margin-top: 16px;
+    text-align: right;
+  }
+  
+  .pagination {
+    border-radius: 4px;
+  }
